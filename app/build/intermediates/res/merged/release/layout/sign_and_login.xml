@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/staj2arkaplan"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_margin="7dp"
+        android:alpha="2"
+        android:background="@drawable/signandlogin"
+
+        android:text="Sıgn Up"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_margin="7dp"
+        android:alpha="2"
+        android:background="@drawable/signandlogin"
+        android:backgroundTint="#66FF"
+        android:text="Logın"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout><!-- From: file:/F:/AndroidStudioProject/ParseBaris/app/src/main/res/layout/sign_and_login.xml -->
